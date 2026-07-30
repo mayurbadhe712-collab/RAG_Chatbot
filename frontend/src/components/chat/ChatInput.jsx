@@ -69,11 +69,7 @@ const ChatInput = ({ onSendMessage, onClearChat, disabled }) => {
         </div>
       </div>
       
-      <div className="flex items-center justify-between px-2 mt-2 text-[11px] text-slate-500 font-medium">
-        <span className="flex items-center gap-1">
-          <Code2 className="w-3 h-3 text-amber-400" />
-          Python Documentation Assistant Mode
-        </span>
+      <div className="flex items-center justify-end px-2 mt-2 text-[11px] text-slate-500 font-medium">
         <span className="flex items-center gap-1 hidden sm:flex">
           Press <kbd className="px-1 py-0.5 rounded bg-slate-800 text-slate-400 text-[10px]">Enter ↵</kbd> to send
         </span>

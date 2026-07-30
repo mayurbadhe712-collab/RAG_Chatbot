@@ -36,16 +36,6 @@ const Sidebar = () => {
           );
         })}
       </div>
-
-      <div className="p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800/60 text-xs">
-        <div className="flex items-center gap-2 text-amber-400 font-semibold mb-1">
-          <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-          Python Strict Mode
-        </div>
-        <p className="text-[11px] text-slate-400 leading-relaxed">
-          Questions outside Python documentation will be automatically declined.
-        </p>
-      </div>
     </aside>
   );
 };
